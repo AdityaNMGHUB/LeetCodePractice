@@ -9,7 +9,8 @@ class Solution {
             return "equilateral";
         }else if (a==b || b==c || a==c) {
             return "isosceles";
+        }else{
+            return "scalene";
         }
-        return "scalene";
     }
 }
